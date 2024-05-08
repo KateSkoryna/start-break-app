@@ -1,5 +1,5 @@
-import { ActivityProps } from "../types/types";
-import { ICONS } from "../assets/const";
+import { ActivityProps } from "../../types/types";
+import { ICONS } from "../../assets/const";
 import { Button, Flex } from "antd";
 
 export const ActivityComponent: React.FC<ActivityProps> = ({

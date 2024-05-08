@@ -4,10 +4,10 @@ import { Modal } from "antd";
 import type { RadioChangeEvent } from "antd";
 import { useState } from "react";
 import { Flex, Radio } from "antd";
-import { TYPES } from "./assets/const";
-import { getActivity } from "./api/API";
-import { Activity } from "./types/types";
-import { ActivityComponent } from "./ActivityComponent/ActivityComponent";
+import { TYPES } from "../../assets/const";
+import { getActivity } from "../../api/API";
+import { Activity } from "../../types/types";
+import { ActivityComponent } from "../ActivityComponent/ActivityComponent";
 
 function App() {
   const [visible, setVisible] = useState(false);
