@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 
-# Logs
+# mist
 .env
 
 # Editor directories and files
