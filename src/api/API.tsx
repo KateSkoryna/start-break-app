@@ -8,11 +8,7 @@ const instance = axios.create({
 export async function getActivity(param: string) {
   const url = `${BASE_URL}${param}`;
   try {
-    const response = await instance.get(url, {
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-      },
-    });
+    const response = await instance.get(url);
     return response.data;
   } catch (error) {
     console.error(error);
